@@ -1,4 +1,4 @@
-CC=x86_64-w64-mingw32-gcc
+CC=x86_64-w64-mingw32-gcc -O3
 OUT_DIR=bin
 
 all: $(OUT_DIR)/pasterboy.exe
